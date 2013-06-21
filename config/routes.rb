@@ -1,4 +1,10 @@
 Example::Application.routes.draw do
+  get "screw/screwed_up"
+
+  get "screw/or_not_screwed_up"
+
+  get "screw/it_s_a_question"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
